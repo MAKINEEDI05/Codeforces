@@ -1,0 +1,1 @@
+#include <bits/stdc++.h>using namespace std;int main(){	int a=0;	string A;	cin >> A;	for(auto i:A){		if(i=='H' || i=='Q' || i=='9'){			a=1;			break;		}	}	if(a==1){		cout << "YES";	}	else{		cout << "NO";	}}

@@ -1,0 +1,1 @@
+#include <bits/stdc++.h>using namespace std;int main(){	long long a=0,b=0,c=0;	cin >> a >> b;	if(a%2==0){		c=a/2;	}	else{		c=a/2+1;	}	if(b<=c){		cout << 2*b-1;	}	else{		b=b%c;		if(b==0){			b=c;		}		cout << 2*b;	}}

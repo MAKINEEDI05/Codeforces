@@ -1,0 +1,1 @@
+#include <bits/stdc++.h>using namespace std;int main(){	int a=0,i=0;	cin >> a;	vector<int> A(a);	for(i=0;i<a;i++){		cin >> A[i];	}	sort(A.begin(),A.end());	for(i=0;i<a;i++){		cout << A[i] << " ";	}}

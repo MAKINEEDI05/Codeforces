@@ -1,0 +1,1 @@
+#include <bits/stdc++.h>using namespace std;int main(){int a;cin >> a;while(a--){int b;cin >> b;vector<int> A(b);int i=0;for(i=0;i<b;i++){cin >> A[i];}int c=*max_element(A.begin(),A.end());cout << c*b << "\n";}}

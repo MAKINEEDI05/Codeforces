@@ -1,0 +1,1 @@
+#include <bits/stdc++.h>using namespace std;int main(){int a;cin >> a;while(a--){int b;cin >> b;int i=0;for(i=1;i<=b;i++){cout << i << " ";}cout << "\n";}}
